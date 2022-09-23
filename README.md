@@ -1,11 +1,11 @@
-# `Nombre Proyecto` - Grupo `XX`
+# `Nombre Proyecto` - Grupo `08`
     Descripción del proyecto
 
 ### Integrantes
-- 
-- 
-- 
-- 
+- Almada Melody
+- Corso Pilar
+- Fava Lara
+- Quiroga Luana
 ---
 [![MacOS](https://github.com/UF-IRI/Plantilla_CMake_CPP/actions/workflows/macos.yml/badge.svg)](https://github.com/UF-IRI/Plantilla_CMake_CPP/actions/workflows/macos.yml)
 [![Ubuntu](https://github.com/UF-IRI/Plantilla_CMake_CPP/actions/workflows/ubuntu.yml/badge.svg)](https://github.com/UF-IRI/Plantilla_CMake_CPP/actions/workflows/ubuntu.yml)
