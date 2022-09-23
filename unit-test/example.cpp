@@ -1,4 +1,5 @@
 #include "gmock/gmock.h"
+#include "archivo.h"
 
 #include "example.h"
 
@@ -6,8 +7,15 @@ using namespace testing;
 
 namespace foobar::tests
 {
-	TEST(ExampleTests, Example) {
-		foobar::Example example{};
-        ASSERT_THAT(example.getValue(), Eq(99));
+	TEST(esParTest, Example) {
+		
+        ASSERT_THAT(esPar(2), true);
+		ASSERT_THAT(esPar(4), true);
 	}
+	TEST(esParTest, Example1) {
+		ASSERT_THAT(esPar(0), false);
+		ASSERT_THAT(esPar(3), false);
+		ASSERT_THAT(esPar(-13), false);
+	}
+
 }
