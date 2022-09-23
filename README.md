@@ -1,5 +1,5 @@
 # `Nombre Proyecto` - Grupo `08`
-    Descripción del proyecto
+    Descripción del proyecto: poner una descripcion
 
 ### Integrantes
 - Almada Melody
