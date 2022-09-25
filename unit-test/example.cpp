@@ -16,6 +16,17 @@ namespace foobar::tests
 		ASSERT_THAT(esPar(0), false);
 		ASSERT_THAT(esPar(3), false);
 		ASSERT_THAT(esPar(-13), false);
+		ASSERT_THAT(esPar(D), false);
+	}
+	TEST(esVocalTest, Example2) {
+		ASSERT_THAT(esVocal(a), true);
+		ASSERT_THAT(esVocal(I), true);
+	}
+	TEST(esVocalTest, Example3) {
+		ASSERT_THAT(esVocal(c), false);
+		ASSERT_THAT(esVocal(H), false);
+		ASSERT_THAT(esVocal(1), false);
+
 	}
 
 }

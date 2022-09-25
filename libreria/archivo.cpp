@@ -8,3 +8,12 @@ bool esPar(int numero) {
         return false;
     }
 }
+
+bool esVocal(char letra) {
+    if (letra == 'a' || letra == 'e' || letra'i' || letra == 'o' || letra == 'u' || letra == 'A' || letra == 'E' || letra'I' || letra == 'O' || letra == 'U') {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
