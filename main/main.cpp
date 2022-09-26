@@ -4,7 +4,6 @@
 #include "archivo.h"
 
 using namespace std;
-bool esPar(int numero);
 
 int main(int argc, char** argv)
 {
